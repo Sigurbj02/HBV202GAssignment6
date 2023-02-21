@@ -13,7 +13,7 @@ public class CarOwnerTest {
 
     @Before
     public void setUp() throws Exception {
-        car = new Car("Beetle");
+        car = new Car(CarTest.BEETLE);
         carOwner = new CarOwner(JOHN_DOE, car);
     }
 
